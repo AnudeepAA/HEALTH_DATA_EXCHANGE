@@ -1,0 +1,11 @@
+
+{
+  "canisters": {
+    "backend": {
+      "main": "backend/main.mo",
+      "type": "motoko"
+    }
+  },
+  "dfx": "0.14.2",
+  "version": 1
+}

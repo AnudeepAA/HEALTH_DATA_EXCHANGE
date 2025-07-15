@@ -1,0 +1,6 @@
+// Version: 1.0.0
+actor {
+  stable var balances : [(Principal, Nat)];
+  stable var nftOwners : [Principal];
+  stable var records : [(Principal, Text)]
+};

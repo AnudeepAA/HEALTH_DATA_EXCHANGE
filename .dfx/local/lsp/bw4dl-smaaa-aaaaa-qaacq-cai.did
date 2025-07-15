@@ -1,0 +1,6 @@
+service : {
+  getBalance: (principal) -> (nat) query;
+  hasNFT: (principal) -> (bool) query;
+  mintNFT: (principal) -> (text);
+  uploadEncryptedRecord: (principal, text) -> (text);
+}
